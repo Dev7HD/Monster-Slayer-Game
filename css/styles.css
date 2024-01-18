@@ -1,5 +1,6 @@
 body {
   background-color: #0a0a23;
+  height: 100%;
 }
 
 #text {
@@ -8,13 +9,23 @@ body {
   padding: 10px;
 }
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: large;
+}
+
 #game {
-  max-width: 500px;
-  max-height: 400px;
+  width: 700px;
+  max-height: 500px;
   background-color: #ffffff;
   color: #ffffff;
   margin: 30px auto 0;
   padding: 10px;
+  font-size: large;
+  border-radius: 8px;
 }
 
 #controls,
@@ -42,4 +53,6 @@ button {
   background-color: #feac32;
   background-image: linear-gradient(#fecc4c, #ffac33);
   border: 3px solid #feac32;
+  font-size: large;
+  border-radius: 10px;
 }
