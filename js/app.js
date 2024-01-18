@@ -1,8 +1,8 @@
 // Document ready function to ensure the DOM is fully loaded before executing the script
 $(document).ready(function() {
     let xp = 0;
-    let health = 100;
-    let gold = 150;
+    let health = 200;
+    let gold = 100;
     let currentWeapon = 0;
     let fighting;
     let monsterHealth;
@@ -258,7 +258,7 @@ $(document).ready(function() {
      * @returns {number} - The calculated attack value.
      */
     function getMonsterAttackValue(level) {
-        const hit = (level * 5) - (Math.floor(Math.random() * xp));
+        const hit = level - (Math.floor(Math.random() * 30));
         return hit > 0 ? hit : 0;
     }
 
@@ -307,8 +307,8 @@ $(document).ready(function() {
      */
     function restart() {
         xp = 0;
-        health = 100;
-        gold = 50;
+        health = 200;
+        gold = 100;
         currentWeapon = 0;
         inventory = ["stick"];
         goldText.text(gold);
