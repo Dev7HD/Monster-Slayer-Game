@@ -6,6 +6,10 @@ Welcome to the Monster Slayer Game, a simple text-based adventure game where you
 
 This JavaScript-based game is designed to showcase the use of jQuery and simple game logic. Players navigate through different locations, make decisions, and engage in battles with various monsters. Your goal is to defeat the Dragon and emerge victorious!
 
+## Try it
+
+**Monster Slayer Game** - [Click here](https://dev7hd.github.io/Monster-Slayer-Game/)
+
 ## Functionalities 🚀
 
 ### Player Actions
